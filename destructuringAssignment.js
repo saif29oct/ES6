@@ -37,7 +37,6 @@ console.log(sa,sb)
 function f() {
     return [1, 2, 3];
   }
-  
   let a, b;
   [a, , b] = f();
   console.log(a,b)
@@ -57,6 +56,7 @@ let a, b;  //A variable can be assigned its value with destructuring separate fr
     Note: The parentheses ( ... ) around the assignment statement are required 
     when using object literal destructuring assignment without a declaration.
 */
+
 
 // Assigning to new variable name
 const o = {p: 42, q: true};
@@ -84,6 +84,7 @@ function whois1({id, fullname:{firstname: name}}){
 }
 whois1(user)
 
+
 // Setting a function parameter's default value
 function drawChart({size = 'big', coords = {x: 0, y: 0}, radius = 25} = {}) {
     /* 
@@ -105,3 +106,5 @@ function drawChart({size = 'big', coords = {x: 0, y: 0}, radius = 25} = {}) {
     coords: {x: 18, y: 30},
     radius: 30
   });
+
+  

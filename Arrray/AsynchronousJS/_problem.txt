@@ -1,0 +1,2 @@
+Problem-1:
+Validate user by email and password. Then get the data from the database; Then share this data and make sure data is shared successfully.
